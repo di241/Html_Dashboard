@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* login page */
+.outer-container{
+    background-color: #FAFAFA;
+}
+
+#image1{
+    border:  20px solid #FFFFFF;
+    border-radius: 50%;
+    width: 90%;
+}
+
+.forgot-password{
+    text-decoration: none;
+    color: #ADADAD;
+}
+
+.text{
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+}
+
+.text-login{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.text1{
+    color: #ADADAD;
+}
+
+.text2{
+    color: #C8242F;
+}
+
+/* dashboard */
+
+
+.img-size{
+    width: 18%;
+}
+
+.container-color{
+   background-color: #FAFAFA;
+}
+
+.total-product{
+    width: 50px;
+}
+
+.link-w{
+    text-decoration: none;
+    color: black;
+}
+
+.cir-1{
+    color: #C8242F;
+}
+
+.cir-2{
+    color: #A2B86C;
+}
+
+.cir-3{
+    color: #F16C20;
+}
+
+.cir-4{
+    color: #EBC844;
+}
+
+.no-focus-outline{
+    outline: none;
+}
+
+
+.nav-pills a:hover{
+    background-color: #FFF3F4;
+    color: red;
+}
+
+
+/* innerpage */
+
+
+.legend > span{
+    top: -27%;
+    left: 7%;
+    background: white;
+    color: #ADADAD;
+}
+
+
+.focusred > input{
+    outline: -1px solid #dee2e6;
+}
+
+.focusred > input:focus{
+    box-shadow: none;
+    outline: 2px solid red;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.outline-dotted > input{
+   
+    border: 1px dashed #dee2e6;
+}
+
+.img-snackbar{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.input-group >input:focus{
+    box-shadow: none;
+}
+
+.input-placeholder{
+    top: 10px;
+    left: 20px;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.input-group > input:focus + .input-placeholder{
+    top: -14px;
+    background: white;
+    color: #ADADAD;
+    z-index: 1000;
+    
+}
+
+.valid-data{
+    top:45px;
+    left: 7px;
+}
+
+.radio-shadow input:focus{
+    box-shadow: none;
+}
+
+input[type="radio"]:checked{
+    
+    background-color: red;
+}
+
+input[type="checkbox"]:checked{
+    background-color: red;
+}
